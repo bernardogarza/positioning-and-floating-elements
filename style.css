@@ -199,21 +199,29 @@ button {
     padding: 10px 100px;
 }
 
-.more-articles{
-    width: 1200px;
+/* .more-articles{
     padding-left: 3%;
     padding-right: 3%;
     display: flex;
     justify-content: center;
-    max-width: 1200px;
     background-color: rgb(255, 255, 255);
     border-top: medium none;
     align-items: center;
 }
 
+.extra-articles{
+    display: flex;
+    flex-direction: column;
+}
+
+.extra-articles div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .extra-article-image img{
-    height: 100px;
-    width: 100px;
+    max-width: 272px;
 }
 
 .left-articles{
@@ -225,4 +233,22 @@ button {
 .most-popular-title{
     max-width: 320px;
     width: 320px;
+} */
+
+.more-articles{
+    margin-top: 80px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left-articles{
+    max-width: 852px;
+    border-top: 1px solid rgb(0, 0, 0);
+    margin-right: 15px;
+}
+
+.right-articles{
+    border-top: 1px solid rgb(0, 0, 0);
+    margin-left: 15px;
 }
