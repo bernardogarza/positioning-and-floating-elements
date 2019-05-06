@@ -48,3 +48,42 @@ button {
     font-size: 11px;
     border-radius: 4px;
 }
+
+.article-title {
+    font-style: italic;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-main-image img {
+    max-width: 1200px;
+    margin: 0
+}
+
+.article-text{
+    width: 600px;
+}
+
+.date-and-social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media i{
+    margin: 0 10px;
+}
+
+.social-media div i{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 100%;
+    justify-content: center;
+}
