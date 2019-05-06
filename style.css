@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 header {
@@ -192,4 +193,36 @@ button {
 .social-media-bottom{
     display: flex;
     justify-content: space-between;
+}
+
+.comment-button button{
+    padding: 10px 100px;
+}
+
+.more-articles{
+    width: 1200px;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    background-color: rgb(255, 255, 255);
+    border-top: medium none;
+    align-items: center;
+}
+
+.extra-article-image img{
+    height: 100px;
+    width: 100px;
+}
+
+.left-articles{
+    width:80%;
+    max-width: 852px;
+    background-color: rgb(255, 255, 255);
+}
+
+.most-popular-title{
+    max-width: 320px;
+    width: 320px;
 }
