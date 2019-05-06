@@ -252,3 +252,41 @@ button {
     border-top: 1px solid rgb(0, 0, 0);
     margin-left: 15px;
 }
+
+.extra-articles{
+    display: flex;
+    flex-direction: column;
+}
+
+.extra-row{
+    display: flex;
+    justify-content:  space-between;
+    margin-bottom: 10px;
+}
+
+.extra-article{
+    width: 280px;
+}
+
+.extra-article-image img {
+    width: 272px;
+}
+
+.image-name{
+    text-align: right;
+    font-size: 12px;
+}
+
+.extra-article-title a {
+    text-decoration: none;
+}
+
+.extra-article-title a h2 {
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.extra-article-date{
+    font-size: 12px;
+}
