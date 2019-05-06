@@ -65,8 +65,43 @@ button {
     margin: 0
 }
 
+.article-main-image p{
+    color: #666;
+    font-size: 15px;
+    text-align: left;
+}
+
+.article-main-image span{
+    font-size: 13px;
+    color: #888
+}
+
 .article-text{
     width: 600px;
+}
+
+.autor{
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+}
+
+.autor a{
+    color: #333;
+    border-bottom: 1px solid #888;
+    text-decoration: none;
+}
+
+.autor a:hover{
+    text-decoration: none;
+    border-bottom: 0;
+
+}
+
+.date{
+    letter-spacing: 0.02em;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #333;
 }
 
 .date-and-social-media{
@@ -76,14 +111,28 @@ button {
     align-items: center;
 }
 
+.social-media{
+    display:flex;
+    justify-content: space-around;
+}
+
 .social-media i{
     margin: 0 10px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.social-media i:hover{
+    background-color: #fff;
+    border: 1px solid #ccc;
 }
 
 .social-media div i{
-    width: 20px;
-    height: 20px;
-    border: 1px solid black;
+    width: 30px;
+    border: 1px solid #ccc;
+    height: 30px;
     border-radius: 100%;
     justify-content: center;
+    display: flex;
+    align-items: center;
 }
