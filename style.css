@@ -411,8 +411,8 @@ button {
     border-top: 1px solid rgb(235, 235, 235);
     display: flex;
     justify-content: space-around;
-    margin-bottom: 100px;
     margin: 0 auto;
+    margin-bottom: 100px;
     width: 1200px;
 }
 
