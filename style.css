@@ -199,42 +199,7 @@ button {
     padding: 10px 100px;
 }
 
-/* .more-articles{
-    padding-left: 3%;
-    padding-right: 3%;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-    border-top: medium none;
-    align-items: center;
-}
-
-.extra-articles{
-    display: flex;
-    flex-direction: column;
-}
-
-.extra-articles div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.extra-article-image img{
-    max-width: 272px;
-}
-
-.left-articles{
-    width:80%;
-    max-width: 852px;
-    background-color: rgb(255, 255, 255);
-}
-
-.most-popular-title{
-    max-width: 320px;
-    width: 320px;
-} */
-
+/* Bottom articles LEFT*/
 .more-articles{
     margin-top: 80px; 
     display: flex;
@@ -246,11 +211,7 @@ button {
     max-width: 852px;
     border-top: 1px solid rgb(0, 0, 0);
     margin-right: 15px;
-}
-
-.right-articles{
-    border-top: 1px solid rgb(0, 0, 0);
-    margin-left: 15px;
+    padding: 15px 0;
 }
 
 .extra-articles{
@@ -275,6 +236,8 @@ button {
 .image-name{
     text-align: right;
     font-size: 12px;
+    padding-right: 10px;
+    color: rgb(105, 105, 105);
 }
 
 .extra-article-title a {
@@ -284,9 +247,50 @@ button {
 .extra-article-title a h2 {
     color: black;
     font-size: 18px;
-    font-weight: normal;
+    font-weight: 500;
 }
 
 .extra-article-date{
     font-size: 12px;
+    color: rgb(105, 105, 105);
+}
+
+.more-articles-title{
+    padding-bottom: 15px;
+}
+
+.more-articles-title a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.more-articles-title a:hover{
+    border-bottom: .5px solid black;
+}
+
+/* Bottom articles Right */
+
+.right-articles{
+    border-top: 1px solid rgb(0, 0, 0);
+    margin-left: 15px;
+}
+
+.most-popular-title{
+    padding: 12px 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.right-article-titles a{
+    text-decoration: none;
+    color: black;
+    padding: 12px 0;
+    border-top:
+}
+
+.right-article-link a{
+    padding: 12px 0;
+    border-top: 1px solid black;
 }
