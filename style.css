@@ -308,3 +308,24 @@ button {
     padding: 12px 0;
     font-size: 19px;
 }
+
+/* Footer */
+
+.nyt-logo img{
+    width:184px;
+    height: 44px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    align-items: center;
+    
+}
+
+.top-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
